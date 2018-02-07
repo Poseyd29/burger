@@ -1,4 +1,6 @@
 // grab clicked button data-id
+
+
 $(".change-state").on("click", function () {
     let burgerId = $(this).attr("data-id");
     let state = $(this).attr("data-state");
@@ -23,6 +25,11 @@ $(".change-state").on("click", function () {
         },
     });
 });
+
+// $(".submit").on("click", function (event) {
+//   var newburger = $(this.attr("submit"))
+
+// }
 
 
 $(".delete-burger").on("click", function () {
